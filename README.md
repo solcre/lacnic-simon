@@ -34,9 +34,3 @@ By hosting the following JavaScript in your site, your visitors will start gener
 
 Visit [the site](http://simon.labs.lacnic.net "Proyecto Simón")! By visiting the site you help us by automatically generating measurements.
 
-![Build status](https://travis-ci.org/LACNIC/simon.svg?branch=master)
-[![Coverage Status](https://coveralls.io/repos/LACNIC/simon/badge.svg?branch=master&service=github)](https://coveralls.io/github/LACNIC/simon?branch=master)
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/LACNIC/simon/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-

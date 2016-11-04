@@ -1,0 +1,31 @@
+{
+    "name": "lacnic-simon",
+    "version": "0.0.1",
+    "description": "The project aims to provide enough information about regional connectivity.",
+    "keywords": [
+      "LACNIC", 
+      "Simon", 
+      "measure", 
+      "latency"
+    ],
+  
+  "dependencies": {
+    "jquery": "~1.11.1",
+    "date.format" : "1.2.3"
+  },
+  "devDependencies": {
+      
+  },
+  "authors": [
+    "Agustin Formoso <agustin@lacnic.net>",    
+    "Matias Fuster <matias@solcre.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

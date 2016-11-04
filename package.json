@@ -1,0 +1,41 @@
+{
+  "name": "lacnic-simon",
+  "version": "0.0.1",
+  "description": "The project aims to provide enough information about regional connectivity.",
+  "keywords": [
+    "LACNIC",
+    "Simon",
+    "measure",
+    "latency"
+  ],
+  "homepage": "https://simon.lacnic.net/",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/solcre/lacnic-simon.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "LACNIC Labs",
+    "url": "http://www.labs.lacnic.net/"
+  },
+  "contributors": [
+    {
+      "name": "Agustin Formoso",
+      "email": "agustin@lacnic.net"
+    },
+    {
+      "name": "Matias Fuster",
+      "email": "matias@solcre.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/solcre/lacnic-simon/issues"
+  },
+  "dependencies": {
+    "jquery": "~1.11.1"
+  },
+  "devDependencies": {
+    "standard": "^8.5.0"
+  }
+}

@@ -11,7 +11,8 @@
   
   "dependencies": {
     "jquery": "~1.11.1",
-    "date.format" : "1.2.3"
+    "date.format" : "1.2.3",
+    "jquery-jsonp" : "~2.4.0"
   },
   "devDependencies": {
       

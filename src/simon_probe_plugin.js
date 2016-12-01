@@ -89,7 +89,6 @@ SIMON = {
       crossDomain: true,
       context: this,
       success: function (cc) {
-        console.log('ENTRO')
         SIMON.countryCode = cc['cc']
         SIMON.getMyIPAddress(SIMON.urls.ipv6ResolveURL)
       }

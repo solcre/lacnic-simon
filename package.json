@@ -63,7 +63,6 @@
   "scripts": {
     "commitmsg": "node node_modules/conventional-changelog-lint/distribution/cli.js -e",
     "precommit": "npm test",
-    "prepush": "node_modules/grunt/bin/grunt protractor",
     "test": "node_modules/grunt/bin/grunt karma:ci",
     "install": "node_modules/bower/bin/bower install"
   },

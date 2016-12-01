@@ -6,7 +6,8 @@ module.exports = function (grunt) {
             dist: {
                 files: [{
                     src: [
-                        'dist/simon_probe_plugin.min.js'
+                        'dist/simon_probe_plugin.min.js',
+                        'dist/simon_probe_plugin.js'
                     ]
                 }]
             }
@@ -18,13 +19,13 @@ module.exports = function (grunt) {
                     'bower_components/jquery-jsonp/src/jquery.jsonp.js',
                     'src/**/*.js'
                 ],
-                dest: 'dist/simon_probe_plugin.min.js'
+                dest: 'dist/simon_probe_plugin.js'
             }
         },
         uglify: {
             js: {
                 dest: 'dist/simon_probe_plugin.min.js',
-                src: 'dist/simon_probe_plugin.min.js'
+                src: 'dist/simon_probe_plugin.js'
             }
         },
         standard: {

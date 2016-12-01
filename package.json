@@ -60,8 +60,9 @@
   "scripts": {
     "commitmsg": "node node_modules/conventional-changelog-lint/distribution/cli.js -e",
     "precommit": "npm test",
-    "prepush": "npm test",
-    "test": "grunt karma:ci"
+    "prepush": "node_modules/grunt/bin/grunt protractor",
+    "test": "node_modules/grunt/bin/grunt karma:ci",
+    "install": "node_modules/bower/bin/bower install"
   },
   "config": {
     "husky": {
